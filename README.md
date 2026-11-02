@@ -123,21 +123,4 @@ To reset the local database, stop the backend, delete `backend/database/ecommerc
 From `backend/`: `npm run build`
 From `frontend/`: `npm run build`
 
-## Submission screenshots
-After starting both servers, capture and include:
-1. Product listing: `http://localhost:5173/`
-2. Product details: open any product card, e.g. `http://localhost:5173/products/1`
 
-Save the screenshots in a `screenshots/` folder in the repository before submitting to GitHub. Screenshots are intentionally captured from the running app rather than fabricated mockups.
-
-## Push to GitHub
-Create an empty GitHub repository, then run from this project root:
-```bash
-git init
-git add .
-git commit -m "Build Part 1 product listing website"
-git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-Do not commit `node_modules/`, `.env`, or the generated SQLite database. Add a `.gitignore` before pushing if you want to exclude these local files.
